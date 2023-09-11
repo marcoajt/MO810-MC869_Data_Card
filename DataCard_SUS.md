@@ -53,7 +53,7 @@ organizations belong: -->
 #### Team(s)
 <!-- scope: telescope -->
 <!-- info: Provide the names of the groups or team(s) that own the dataset: -->
-Name of Group or Team
+Name of Group or Team: Departamento de Informática do Sistema Único de Saúde
 
 #### Contact Detail(s)
 <!-- scope: periscope -->
