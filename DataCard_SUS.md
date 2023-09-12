@@ -31,14 +31,9 @@ Departamento de Informática do Sistema Único de Saúde (DataSUS)
 <!-- scope: periscope -->
 <!-- info: Select **all applicable** industry types to which the publishing
 organizations belong: -->
-- Corporate - Tech
-- Corporate - Non-Tech (please specify)
-- Academic - Tech
-- Academic - Non-Tech (please specify)
-- Not-for-profit - Tech
-- Not-for-profit - Non-Tech (please specify)
-- Individual (please specify)
-- Others (please specify)
+
+- Instituições Médicas
+- Intituições acadêmicas
 
 #### Contact Detail(s)
 <!-- scope: microscope -->
@@ -236,9 +231,9 @@ Category | Data
 --- | ---
 Size of Dataset | 848,4 MB 
 Number of Instances | 2471519 
-Number of Fields | 123456
-Labeled Classes | 123456
-Number of Labels | 123456789
+Number of Fields | 150762659 
+Labeled Classes | 1 
+Number of Labels | 61 
 Average Labeles Per Instance | 123456
 Algorithmic Labels | 123456789
 Human Labels | 123456789
