@@ -23,7 +23,7 @@ in creating the Data Card.) -->
 <!-- scope: telescope -->
 <!-- info: Provide the names of the institution or organization responsible
 for publishing the dataset: -->
-Organization Name
+Departamento de Informática do Sistema Único de Saúde (DataSUS)
 
 
 
@@ -62,7 +62,7 @@ Name of Group or Team: Departamento de Informática do Sistema Único de Saúde
 - **Affiliation:** Provide the affiliation of the dataset owners
 - **Contact:** Provide the email of the dataset owner
 - **Group Email:** Provide a link to the mailing-list@server.com for the dataset owner team
-- **Website:** Provide a link to the website for the dataset owner team
+- **Website:** https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc
 
 #### Author(s)
 <!-- scope: microscope -->
@@ -111,12 +111,8 @@ Summarize here. Link to documents if available.
 <!-- info: Select **one**: -->
 
 - Coleta de dados
-- Padronização dos dados
-- Armazenamento de dados
 - Análise de dados
-- Disponibilização de Dados
 - Monitoramento
-- Suporte à tomada de decisão
 - Pesquisa em Saúde
 
 #### Domain(s) of Application
@@ -137,8 +133,8 @@ For example: `Machine Learning`, `Classification`, `Nascidos Vivos`, `SUS`.
 motivations for the dataset.) -->
 For example:
 
-- Bringing demographic diversity to imagery training data for object-detection models
-- Encouraging academics to take on second-order challenges of cultural representation in object detection
+- Armazenamento de grandes volumes de dados de saúde em bancos de dados seguros
+- Utilização dos dados por profissionais de saúde, pesquisadores e o público em geral para pesquisas
 
 Summarize motivation here. Include links where relevant.
 
@@ -149,11 +145,10 @@ Summarize motivation here. Include links where relevant.
 <!-- scope: telescope -->
 <!-- info: Select **one**: -->
 
-- Safe for production use
-- Safe for research use
-- Conditional use - some unsafe applications
-- Only approved use
-- Others (please specify)
+- Suporte à tomada de decisão
+- Padronização dos dados
+- Armazenamento de dados
+- Disponibilização de Dados
 
 #### Suitable Use Case(s)
 
@@ -227,14 +222,10 @@ out for, or other relevant information or considerations. -->
 #### Data Subject(s)
 <!-- scope: telescope -->
 <!-- info: Select ***all applicable**** subjects contained the dataset: -->
-- Sensitive Data about people
-- Non-Sensitive Data about people
-- Data about natural phenomena
-- Data about places and objects
-- Synthetically generated data
-- Data about systems or products and their behaviors
-- Unknown
-- Others (Please specify)
+- Dados Tabulares
+- Formato CSV
+- Dados guardados em forma bruta
+- Dados que descrevem as características, estados e procedimentos envolvendo os recém-nascidos
 
 #### Dataset Snapshot
 <!-- scope: periscope -->
