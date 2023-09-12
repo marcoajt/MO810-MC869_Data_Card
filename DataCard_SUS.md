@@ -157,7 +157,7 @@ Summarize motivation here. Include links where relevant.
 
 Use additional notes to capture any specific patterns that readers should
 look out for, or other relevant information or considerations. -->
-**Suitable Use Case:** Summarize here. Include links where necessary.
+**Suitable Use Case:** Diagnóstico e detectação de doenças cognitivas em recém-nascidos. https://link.springer.com/article/10.1007/s11831-023-09892-2.
 
 **Suitable Use Case:** Summarize here. Include links where necessary.
 
@@ -348,19 +348,10 @@ strings. -->
 #### Sensitivity Type(s)
 <!-- scope: telescope -->
 <!-- info: Select ***all applicable*** data types present in the dataset: -->
-- User Content
-- User Metadata
-- User Activity Data
-- Identifiable Data
-- S/PII
-- Business Data
-- Employee Data
-- Pseudonymous Data
-- Anonymous Data
-- Health Data
-- Children’s Data
-- None
-- Others (Please specify)
+- Idade da mãe
+- Data de nasncimento do recém-nascido
+- Recém-nascido com anomalia
+- Origem racial ou étnica dos pais e do recém-nascido 
 
 #### Field(s) with Sensitive Data
 <!-- scope: periscope -->
