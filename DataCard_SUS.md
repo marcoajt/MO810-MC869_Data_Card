@@ -1,4 +1,4 @@
-# DATA SUS (Acronym)
+# DATA SUS 
 Os dados descritos neste DataCard foram retirados do DataSus (Departamento de Informática do Sistema Único de Saúde), plataforma e sistema de informações de saúde mantido pelo Ministério da Saúde do Brasil. Os dados abrangem os nascimentos ocorridos em todo o território nacional em 2022 e incluem informações sobre as características do parto, dos pais e dos recém-nascidos.
 
 #### Link do conjunto de dados
@@ -64,16 +64,12 @@ Nome da equipe: Departamento de Informática do Sistema Único de Saúde
 O objetivo da utilização da base de dados é criar um modelo de *machine learning* que seja capaz de estimar a probabilidade de um recém-nascido nascer com alguma anomalia congênita, a partir de informações gerais da mãe, pai e outras informações demográficas.
 
 ## Visão geral do conjunto de dados
-#### Data Subject(s)
-- Dados Tabulares
-- Formato CSV
-- Dados guardados em forma bruta
-- Informações gerais sobre os genitores do recém nascido, sobre a gravidez e algumas informações referentes ao nascimento
-
-#### Dataset Snapshot
-Category | Data
+#### Características do conjunto de dados
+Categoria | Data
 --- | ---
 Formato | text/csv 
+Tipo de dados | Dados Tabulares 
+Espaço | Bruto 
 Criado | 10/Agosto/2023 
 Licença | [Creative Commons Atribuição](http://www.opendefinition.org/licenses/cc-by) 
 Tamanho do conjunto de dados | 848,4 MB 
@@ -82,7 +78,7 @@ Número de campos | 150762659
 Classes rotuladas | 1 
 Número de rótulos | 61 
 
-**Tabela 1:** Tabela com estatísticas descritivas de todas as colunas numéricas da base de dados
+**Tabela 1:** Tabela com as características da base de dados
 
 #### Estatística descritiva
 | index | ORIGEM     | CODESTAB            | CODMUNNASC          | LOCNASC              | IDADEMAE            | ESTCIVMAE           | ESCMAE              | CODOCUPMAE          | QTDFILVIVO          | QTDFILMORT           | CODMUNRES          | GESTACAO           | GRAVIDEZ             | PARTO                | CONSULTAS           | DTNASC              | HORANASC            | SEXO                | APGAR1             | APGAR5              | RACACOR             | PESO                | IDANOMAL            | DTCADASTRO          | CODANOMAL | NUMEROLOTE          | VERSAOSIST | DTRECEBIM           | DIFDATA             | OPORT\_DN          | DTRECORIGA          | NATURALMAE         | CODMUNNATU         | CODUFNATU  | ESCMAE2010          | SERIESCMAE          | DTNASCMAE           | RACACORMAE          | QTDGESTANT          | QTDPARTNOR          | QTDPARTCES           | IDADEPAI            | DTULTMENST          | SEMAGESTAC          | TPMETESTIM          | CONSPRENAT         | MESPRENAT           | TPAPRESENT          | STTRABPART          | STCESPARTO          | TPNASCASSI          | TPFUNCRESP         | TPDOCRESP           | DTDECLARAC          | ESCMAEAGR1         | STDNEPIDEM           | STDNNOVA            | CODPAISRES | TPROBSON           | PARIDADE            | KOTELCHUCK         |
@@ -157,7 +153,7 @@ CC BY 4.0
 
 ### Status do conjunto de dados
 
-| Version            | 1.0            |
+| Versão             | 1.0            |
 | ------------------ | -------------- |
 | Última Atualização | 10/Agosto/2023 |
 | Primeira versão    | 10/Agosto/2023 |
