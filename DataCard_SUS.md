@@ -1,16 +1,16 @@
 # DATA SUS (Acronym)
 Os dados descritos neste DataCard foram retirados do DataSus (Departamento de Informática do Sistema Único de Saúde), plataforma e sistema de informações de saúde mantido pelo Ministério da Saúde do Brasil. Os dados abrangem os nascimentos ocorridos em todo o território nacional em 2022 e incluem informações sobre as características do parto, dos pais e dos recém-nascidos.
 
-#### Dataset Link
+#### Link do conjunto de dados
 Dataset Link
 https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/DNOPEN22.csv
 
-#### Data Card Author(s)
+#### Autores do cartão de dados
 - **Luís Carlos M. A. Júnior** 
 - **Mariana Aparecida Ferreira**
 -  **Marco Antonio J. Ticona**
 
-## Authorship
+## Autoria
 ### Publishers
 #### Publishing Organization(s)
 Departamento de Informática do Sistema Único de Saúde (DataSUS)
@@ -19,16 +19,16 @@ Departamento de Informática do Sistema Único de Saúde (DataSUS)
 - Instituições Médicas
 - Intituições acadêmicas
 
-### Dataset Owners
+### Proprietários de conjunto de dados
 #### Team(s)
 Name of Group or Team: Departamento de Informática do Sistema Único de Saúde
 #### Contact Detail(s)
 - **Dataset Owner(s):** CGIAE/DASNT/SVS
 - **Website:** https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc
 
-## Motivations & Intentions
+## Motivações e Intenções
 
-### Motivations
+### Motivações
 
 #### Purpose(s)Coleta de dados
 
@@ -46,9 +46,9 @@ For example: `Machine Learning`, `Classification`, `Nascidos Vivos`, `SUS`.
 - Armazenamento de grandes volumes de dados de saúde em bancos de dados seguros
 - Utilização dos dados por profissionais de saúde, pesquisadores e o público em geral para pesquisas
 
-### Intended Use
+### Aplicações
 
-#### Dataset Use(s)
+#### Uso do conjunto de dados
 
 - Suporte à tomada de decisão
 - Padronização dos dados
@@ -65,7 +65,7 @@ For example: `Machine Learning`, `Classification`, `Nascidos Vivos`, `SUS`.
 
 O objetivo da utilização da base de dados é criar um modelo de *machine learning* que seja capaz de estimar a probabilidade de um recém-nascido nascer com alguma anomalia congênita, a partir de informações gerais da mãe, pai e outras informações demográficas.
 
-## Dataset Overview
+## Visão geral do conjunto de dados
 #### Data Subject(s)
 - Dados Tabulares
 - Formato CSV
@@ -86,10 +86,10 @@ Number of Labels | 61
 
 
 
-#### Content Description
+#### Descrição do conteúdo 
 Summarize here. Include links if available.
 
-#### Descriptive Statistics
+#### Estatística descritiva
 | index | ORIGEM     | CODESTAB            | CODMUNNASC          | LOCNASC              | IDADEMAE            | ESTCIVMAE           | ESCMAE              | CODOCUPMAE          | QTDFILVIVO          | QTDFILMORT           | CODMUNRES          | GESTACAO           | GRAVIDEZ             | PARTO                | CONSULTAS           | DTNASC              | HORANASC            | SEXO                | APGAR1             | APGAR5              | RACACOR             | PESO                | IDANOMAL            | DTCADASTRO          | CODANOMAL | NUMEROLOTE          | VERSAOSIST | DTRECEBIM           | DIFDATA             | OPORT\_DN          | DTRECORIGA          | NATURALMAE         | CODMUNNATU         | CODUFNATU  | ESCMAE2010          | SERIESCMAE          | DTNASCMAE           | RACACORMAE          | QTDGESTANT          | QTDPARTNOR          | QTDPARTCES           | IDADEPAI            | DTULTMENST          | SEMAGESTAC          | TPMETESTIM          | CONSPRENAT         | MESPRENAT           | TPAPRESENT          | STTRABPART          | STCESPARTO          | TPNASCASSI          | TPFUNCRESP         | TPDOCRESP           | DTDECLARAC          | ESCMAEAGR1         | STDNEPIDEM           | STDNNOVA            | CODPAISRES | TPROBSON           | PARIDADE            | KOTELCHUCK         |
 | ----- | ---------- | ------------------- | ------------------- | -------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | -------------------- | ------------------ | ------------------ | -------------------- | -------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------ | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | --------- | ------------------- | ---------- | ------------------- | ------------------- | ------------------ | ------------------- | ------------------ | ------------------ | ---------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | -------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------ | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------ | ------------------- | ------------------- | ------------------ | -------------------- | ------------------- | ---------- | ------------------ | ------------------- | ------------------ |
 | count | 2471519\.0 | 2448501\.0          | 2471519\.0          | 2471519\.0           | 2471503\.0          | 2460132\.0          | 2457513\.0          | 2278165\.0          | 2423212\.0          | 2397009\.0           | 2471519\.0         | 2444962\.0         | 2468998\.0           | 2469409\.0           | 2465822\.0          | 2471519\.0          | 2469829\.0          | 2471519\.0          | 2444624\.0         | 2444735\.0          | 2414652\.0          | 2471235\.0          | 2446907\.0          | 2471519\.0          | 21802     | 2469935\.0          | 2469909    | 2469794\.0          | 2471519\.0          | 2471519\.0         | 2471519\.0          | 2426801\.0         | 2426801\.0         | 2426801\.0 | 2440176\.0          | 1565561\.0          | 2450759\.0          | 2402913\.0          | 2415044\.0          | 2397250\.0          | 2390397\.0           | 857760\.0           | 1194226\.0          | 2444717\.0          | 2444717\.0          | 2431037\.0         | 2417255\.0          | 2446942\.0          | 2437849\.0          | 2436317\.0          | 2451148\.0          | 2400915\.0         | 2453953\.0          | 2439252\.0          | 2440176\.0         | 2471517\.0           | 2471519\.0          | 2471510\.0 | 2471519\.0         | 2471519\.0          | 2471519\.0         |
@@ -103,8 +103,8 @@ Summarize here. Include links if available.
 
 **Above:** Tabela com estatísticas descritivas de todas as colunas numéricas da base de dados
 
-### Sensitivity of Data
-#### Sensitivity Type(s)
+### Sensibilidade dos dados
+#### Tipos de sensibilidade
 - Informações demográficas da mãe e do pai, como idade, município e escolaridade
 - Data de nasncimento do recém-nascido
 - Recém-nascido com anomalia
@@ -114,13 +114,13 @@ A grande maioria das variáveis que serão utilizadas da base de dados são sens
 
 Além disso, como o *dataset* contém todos os registros de nascidos vivos do Brasil, não temos risco de não representar nossa população de interesse (que é avaliar a quantidade de recém nascidos no Brasil). Porém, como são dados preenchidos por pessoas, podemos nos deparar com erros de digitação na nossa variável alvo, que é o código da anomalia congênita encontrada. Além disso, como existe muitas variáveis categóricas (como sexo e raça), é necessário avaliar se o modelo não está penalizando nenhuma dessas categorias de maneira incoerente (e apenas reproduzindo algum viés social, por exemplo).
 
-#### Field(s) with Sensitive Data
+#### Campo(s) com dados confidenciais
 **Intentional Collected Sensitive Data**
 
 (S/PII were collected as a part of the
 dataset creation process.)
 
-Field Name | Description
+Nome do Campo | Descrição 
 --- | ---
 CODESTAB | Quasi-identificadores 
 CODMUNNASC | Quasi-identificadores 
@@ -140,13 +140,13 @@ IDADEPAI | Quasi-identificadores
 
 **Above:** Tabela com as variáveis que são sensíveis/identificadores
 
-## License & Access
+## Licença e Acesso
 
-### LICENSE TYPE(S)
+### Tipo de Licença
 
 CC BY 4.0
 
-### LICENSE PERMISIONS
+### Permissões de licença
 
 **Share** — copy and redistribute the material in any medium or format
 
@@ -158,16 +158,16 @@ CC BY 4.0
 
 
 
-## Versioning & Maintenance
+## Versionamento e Manutenção
 
-### DATASET STATUS
+### Status do conjunto de dados
 
 | Version        | 1.0            |
 | -------------- | -------------- |
 | Last Updated   | 10/Agosto/2023 |
 | First Released | 10/Agosto/2023 |
 
-### MAINTENANCE PLAN
+### Plano de manutenção
 
 Atualização do dataset são publicados no [opendatasus](https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc/resource/41a83273-5760-48a3-9740-1be727db06cf)
 
