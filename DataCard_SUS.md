@@ -2,46 +2,44 @@
 Os dados descritos neste DataCard foram retirados do DataSus (Departamento de Informática do Sistema Único de Saúde), plataforma e sistema de informações de saúde mantido pelo Ministério da Saúde do Brasil. Os dados abrangem os nascimentos ocorridos em todo o território nacional em 2022 e incluem informações sobre as características do parto, dos pais e dos recém-nascidos.
 
 #### Link do conjunto de dados
-Dataset Link
 https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SINASC/DNOPEN22.csv
-
 #### Autores do cartão de dados
 - **Luís Carlos M. A. Júnior** 
 - **Mariana Aparecida Ferreira**
 -  **Marco Antonio J. Ticona**
 
 ## Autoria
-### Publishers
-#### Publishing Organization(s)
+### Publicadores
+#### Organização publicadora
 Departamento de Informática do Sistema Único de Saúde (DataSUS)
 
-#### Industry Type(s)
+#### Tipos de indústria
 - Instituições Médicas
 - Intituições acadêmicas
 
 ### Proprietários de conjunto de dados
-#### Team(s)
-Name of Group or Team: Departamento de Informática do Sistema Único de Saúde
-#### Contact Detail(s)
-- **Dataset Owner(s):** CGIAE/DASNT/SVS
+#### Equipe
+Nome da equipe: Departamento de Informática do Sistema Único de Saúde
+#### Detalhes do contatos
+- **Proprietários do conjunto de dados:** CGIAE/DASNT/SVS
 - **Website:** https://opendatasus.saude.gov.br/dataset/sistema-de-informacao-sobre-nascidos-vivos-sinasc
 
 ## Motivações e Intenções
 
 ### Motivações
 
-#### Purpose(s)Coleta de dados
+#### Propósitos
 
 - Análise de dados
+- Coleta de dados
 - Monitoramento
 - Pesquisa em Saúde
 
-#### Domain(s) of Application
+#### Domínios de Aplicação
 
+`Machine Learning`, `Classification`, `Nascidos Vivos`, `SUS`.
 
-For example: `Machine Learning`, `Classification`, `Nascidos Vivos`, `SUS`.
-
-#### Motivating Factor(s)
+#### Fatores Motivadores
 
 - Armazenamento de grandes volumes de dados de saúde em bancos de dados seguros
 - Utilização dos dados por profissionais de saúde, pesquisadores e o público em geral para pesquisas
@@ -55,13 +53,13 @@ For example: `Machine Learning`, `Classification`, `Nascidos Vivos`, `SUS`.
 - Armazenamento de dados
 - Disponibilização de Dados
 
-#### Suitable Use Case(s)
+#### Casos de uso adequados
 
-**Suitable Use Case:** Estudo utilizando machine learning da relação dos dados coletados pelo SINASC e o peso do recém nascido. https://repositorio.unesp.br/handle/11449/236236
+**Caso de uso adequado:** Estudo utilizando machine learning da relação dos dados coletados pelo SINASC e o peso do recém nascido. https://repositorio.unesp.br/handle/11449/236236
 
-**Suitable Use Case:** Infant mortality between the years 2000 and 2017 in a city in southern Brazil: data mining techniques. https://rsdjournal.org/index.php/rsd/article/view/7489
+**Caso de uso adequado:** Mortalidade infantil entre os anos de 2000 e 2017 em uma cidade do Sul do Brasil: técnicas de mineração de dados. https://rsdjournal.org/index.php/rsd/article/view/7489
 
-#### Research and Problem Space(s)
+#### Espaço de pesquisa e Problemas
 
 O objetivo da utilização da base de dados é criar um modelo de *machine learning* que seja capaz de estimar a probabilidade de um recém-nascido nascer com alguma anomalia congênita, a partir de informações gerais da mãe, pai e outras informações demográficas.
 
@@ -78,16 +76,13 @@ Category | Data
 Formato | text/csv 
 Criado | 10/Agosto/2023 
 Licença | [Creative Commons Atribuição](http://www.opendefinition.org/licenses/cc-by) 
-Size of Dataset | 848,4 MB 
-Number of Instances | 2471519 
-Number of Fields | 150762659 
-Labeled Classes | 1 
-Number of Labels | 61 
+Tamanho do conjunto de dados | 848,4 MB 
+Número de Instâncias | 2471519 
+Número de campos | 150762659 
+Classes rotuladas | 1 
+Número de rótulos | 61 
 
-
-
-#### Descrição do conteúdo 
-Summarize here. Include links if available.
+**Tabela 1:** Tabela com estatísticas descritivas de todas as colunas numéricas da base de dados
 
 #### Estatística descritiva
 | index | ORIGEM     | CODESTAB            | CODMUNNASC          | LOCNASC              | IDADEMAE            | ESTCIVMAE           | ESCMAE              | CODOCUPMAE          | QTDFILVIVO          | QTDFILMORT           | CODMUNRES          | GESTACAO           | GRAVIDEZ             | PARTO                | CONSULTAS           | DTNASC              | HORANASC            | SEXO                | APGAR1             | APGAR5              | RACACOR             | PESO                | IDANOMAL            | DTCADASTRO          | CODANOMAL | NUMEROLOTE          | VERSAOSIST | DTRECEBIM           | DIFDATA             | OPORT\_DN          | DTRECORIGA          | NATURALMAE         | CODMUNNATU         | CODUFNATU  | ESCMAE2010          | SERIESCMAE          | DTNASCMAE           | RACACORMAE          | QTDGESTANT          | QTDPARTNOR          | QTDPARTCES           | IDADEPAI            | DTULTMENST          | SEMAGESTAC          | TPMETESTIM          | CONSPRENAT         | MESPRENAT           | TPAPRESENT          | STTRABPART          | STCESPARTO          | TPNASCASSI          | TPFUNCRESP         | TPDOCRESP           | DTDECLARAC          | ESCMAEAGR1         | STDNEPIDEM           | STDNNOVA            | CODPAISRES | TPROBSON           | PARIDADE            | KOTELCHUCK         |
@@ -101,7 +96,7 @@ Summarize here. Include links if available.
 | 75%   | 1\.0       | 2792168\.0          | 355030\.0           | 1\.0                 | 33\.0               | 2\.0                | 4\.0                | 999992\.0           | 2\.0                | 0\.0                 | 355030\.0          | 5\.0               | 1\.0                 | 2\.0                 | 4\.0                | 23072022\.0         | 1734\.0             | 2\.0                | 9\.0               | 10\.0               | 4\.0                | 3500\.0             | 2\.0                | 23082022\.0         | NaN       | 20220041\.0         | NaN        | 23052022\.0         | 33\.0               | 29\.0              | 23062022\.0         | 835\.0             | 355030\.0          | NaN        | 3\.0                | 5\.0                | 23091986\.0         | 4\.0                | 2\.0                | 1\.0                | 1\.0                 | 37\.0               | 23092021\.0         | 40\.0               | 8\.0                | 10\.0              | 3\.0                | 1\.0                | 2\.0                | 3\.0                | 1\.0                | 5\.0               | 4\.0                | 23082022\.0         | 8\.0               | 0\.0                 | 1\.0                | 1\.0       | 5\.0               | 1\.0                | 5\.0               |
 | max   | 1\.0       | 9999999\.0          | 530010\.0           | 9\.0                 | 99\.0               | 9\.0                | 9\.0                | 999995\.0           | 99\.0               | 99\.0                | 530010\.0          | 9\.0               | 9\.0                 | 9\.0                 | 9\.0                | 31122022\.0         | 7058\.0             | 2\.0                | 99\.0              | 99\.0               | 5\.0                | 7000\.0             | 9\.0                | 31122022\.0         | NaN       | 20230009\.0         | NaN        | 31122022\.0         | 380\.0              | 380\.0             | 31122022\.0         | 853\.0             | 530010\.0          | NaN        | 9\.0                | 8\.0                | 31122008\.0         | 5\.0                | 99\.0               | 99\.0               | 99\.0                | 99\.0               | 31122021\.0         | 45\.0               | 9\.0                | 99\.0              | 99\.0               | 9\.0                | 9\.0                | 9\.0                | 9\.0                | 5\.0               | 5\.0                | 31122022\.0         | 12\.0              | 1\.0                 | 1\.0                | 1\.0       | 11\.0              | 1\.0                | 9\.0               |
 
-**Above:** Tabela com estatísticas descritivas de todas as colunas numéricas da base de dados
+**Tabela 2:** Tabela com estatísticas descritivas de todas as colunas numéricas da base de dados
 
 ### Sensibilidade dos dados
 #### Tipos de sensibilidade
@@ -115,10 +110,10 @@ A grande maioria das variáveis que serão utilizadas da base de dados são sens
 Além disso, como o *dataset* contém todos os registros de nascidos vivos do Brasil, não temos risco de não representar nossa população de interesse (que é avaliar a quantidade de recém nascidos no Brasil). Porém, como são dados preenchidos por pessoas, podemos nos deparar com erros de digitação na nossa variável alvo, que é o código da anomalia congênita encontrada. Além disso, como existe muitas variáveis categóricas (como sexo e raça), é necessário avaliar se o modelo não está penalizando nenhuma dessas categorias de maneira incoerente (e apenas reproduzindo algum viés social, por exemplo).
 
 #### Campo(s) com dados confidenciais
-**Intentional Collected Sensitive Data**
+**Dados sensíveis coletados intencionalmente**
 
-(S/PII were collected as a part of the
-dataset creation process.)
+(S/PII foram coletados como parte do
+processo de criação de conjunto de dados.)
 
 Nome do Campo | Descrição 
 --- | ---
@@ -138,7 +133,7 @@ RACACORMAE | Dados sensíveis
 SERIESCMAE | Dados sensíveis 
 IDADEPAI | Quasi-identificadores 
 
-**Above:** Tabela com as variáveis que são sensíveis/identificadores
+**Tabela 3:** Tabela com as variáveis que são sensíveis/identificadores
 
 ## Licença e Acesso
 
@@ -162,10 +157,10 @@ CC BY 4.0
 
 ### Status do conjunto de dados
 
-| Version        | 1.0            |
-| -------------- | -------------- |
-| Last Updated   | 10/Agosto/2023 |
-| First Released | 10/Agosto/2023 |
+| Version            | 1.0            |
+| ------------------ | -------------- |
+| Última Atualização | 10/Agosto/2023 |
+| Primeira versão    | 10/Agosto/2023 |
 
 ### Plano de manutenção
 
