@@ -101,10 +101,6 @@ Número de rótulos | 61
 - Recém-nascido com anomalia
 - Origem racial ou étnica dos pais e do recém-nascido 
 
-A grande maioria das variáveis que serão utilizadas da base de dados são sensíveis. Como ele está em sua forma bruta, é necessário utilizar técnicas que possibilitem a anonimização dos dados, como as técnicas de *t-closeness* para atributos como sexo, região, raça, etc. ou até adicionar um ruído nas variáveis numéricas (garantindo que a distribuição é a mesma da original). Além disso, para outras variáveis que são quase-identificadores, é necessário avaliar a possibilidade de aplicar técnicas de anonimização e se caso não for possível, avaliar o real ganho da utilização da informação. Como em ambas as técnicas ainda mantemos tanto a distribuição original quando a representação da população original nos sub-grupos, não há nenhuma perda na utilização das técnicas mencionadas. 
-
-Além disso, como o *dataset* contém todos os registros de nascidos vivos do Brasil, não temos risco de não representar nossa população de interesse (que é avaliar a quantidade de recém nascidos no Brasil). Porém, como são dados preenchidos por pessoas, podemos nos deparar com erros de digitação na nossa variável alvo, que é o código da anomalia congênita encontrada. Além disso, como existe muitas variáveis categóricas (como sexo e raça), é necessário avaliar se o modelo não está penalizando nenhuma dessas categorias de maneira incoerente (e apenas reproduzindo algum viés social, por exemplo).
-
 #### Campo(s) com dados confidenciais
 **Dados sensíveis coletados intencionalmente**
 
